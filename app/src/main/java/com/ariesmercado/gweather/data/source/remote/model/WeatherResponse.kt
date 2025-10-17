@@ -16,8 +16,7 @@ data class WeatherResponse(
     @SerializedName("id") val id: Int? = null,
     @SerializedName("name") val name: String? = null,
     @SerializedName("cod") val cod: Int? = null
-) {
-}
+)
 
 data class Coord(
     @SerializedName("lon") val lon: Double? = null,
