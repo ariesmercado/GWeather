@@ -104,10 +104,10 @@ In code, these values are safely read through Gradle configuration.
 
 | Splash                            | Location Permission                  | Login                           | Registration                          |
 | --------------------------------- | ------------------------------------ | ------------------------------- | ------------------------------------- |
-| ![Splash](![splash.jpg](..%2F..%2F..%2FDownloads%2Fsplash.jpg)) | ![Location](![location permision.jpg](..%2F..%2F..%2FDownloads%2Flocation%20permision.jpg)) | ![Login](![login.jpg](..%2F..%2F..%2FDownloads%2Flogin.jpg)) | ![Register](![registration.jpg](..%2F..%2F..%2FDownloads%2Fregistration.jpg)) |
+| ![splash](https://github.com/user-attachments/assets/d22fb6e8-9728-401b-b983-d906e1801c42) | ![location permision](https://github.com/user-attachments/assets/2756e6e7-605d-4afd-9e4f-c29c060fc77a) | ![login](https://github.com/user-attachments/assets/691abee2-ae5c-4286-b9fd-d50652da5bbe) | ![registration](https://github.com/user-attachments/assets/56f441e3-799d-4b62-8490-c518ee478a44) |
 | Current Weather                                    | Weather History                            |
 | -------------------------------------------------- | ------------------------------------------- |
-| ![CurrentWeather](![current weather.jpg](..%2F..%2F..%2FDownloads%2Fcurrent%20weather.jpg)) | ![History](![history.jpg](..%2F..%2F..%2FDownloads%2Fhistory.jpg)) |
+| ![current weather](https://github.com/user-attachments/assets/d2b546a1-cd12-422e-b98c-31880d17bd20) | ![history](https://github.com/user-attachments/assets/60fdc9da-8b20-4e93-99c5-fa83ecc9df8d) |
 
 ### 🧑‍💻 Developer Notes
 
