@@ -57,13 +57,13 @@ The app follows the **Clean Architecture + MVVM (Model-View-ViewModel)** pattern
 Follow these steps to set up and run the project locally:
 
 ### 1️⃣ Clone the Repository
-git clone https://github.com/ariesmercado/GWeather.git
-cd GWeather
+- git clone https://github.com/ariesmercado/GWeather.git
+- cd GWeather
 
 ### 2️⃣ Add google-services.json
 Firebase is used for authentication, so you must include the google-services.json file in your project.
 
-# Steps:
+**Steps:**
 
 1. Download from my provided Google Drive link. -> [google-services.json](https://drive.google.com/file/d/1FncQuNSv47rV3FmEbGKs6ukwKPtyHrRy/view?usp=sharing)
 2. Place it inside: app/google-services.json
@@ -72,7 +72,7 @@ Firebase is used for authentication, so you must include the google-services.jso
 ### 3️⃣ Add secret.properties
 This file stores sensitive information such as your API key and database name securely.
 
-# Steps:
+**Steps:**
 1. Create a file named secret.properties in the project root
 or download it from my provided Google Drive link. -> [secret.properties](https://drive.google.com/file/d/1rm-75v7yPoBVBEjw8zAHXeyTgRrYkDBU/view?usp=sharing)
 
@@ -105,8 +105,8 @@ In code, these values are safely read through Gradle configuration.
 | Splash                            | Location Permission                  | Login                           | Registration                          |
 | --------------------------------- | ------------------------------------ | ------------------------------- | ------------------------------------- |
 | ![splash](https://github.com/user-attachments/assets/d22fb6e8-9728-401b-b983-d906e1801c42) | ![location permision](https://github.com/user-attachments/assets/2756e6e7-605d-4afd-9e4f-c29c060fc77a) | ![login](https://github.com/user-attachments/assets/691abee2-ae5c-4286-b9fd-d50652da5bbe) | ![registration](https://github.com/user-attachments/assets/56f441e3-799d-4b62-8490-c518ee478a44) |
-| Current Weather                                    | Weather History                            |
-| -------------------------------------------------- | ------------------------------------------- |
+| Current Weather                   | Weather History                      |
+| --------------------------------- | ------------------------------------ |
 | ![current weather](https://github.com/user-attachments/assets/d2b546a1-cd12-422e-b98c-31880d17bd20) | ![history](https://github.com/user-attachments/assets/60fdc9da-8b20-4e93-99c5-fa83ecc9df8d) |
 
 ### 🧑‍💻 Developer Notes
@@ -125,8 +125,8 @@ In code, these values are safely read through Gradle configuration.
 This project was just developed as part of an Android Developer Coding Challenge.
 
 ### 💬 Contact
-📧 mercadoaries92@gmail.com
-📱 +6398315576
-💼 **LinkedIn:** [Linkedin](https://www.linkedin.com/in/aries-mercado)
+- 📧 mercadoaries92@gmail.com
+- 📱 +639308315576
+- 💼 **LinkedIn:** [Linkedin](https://www.linkedin.com/in/aries-mercado)
 
 For clarifications or review feedback, feel free to reach out.
