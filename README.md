@@ -57,28 +57,29 @@ The app follows the **Clean Architecture + MVVM (Model-View-ViewModel)** pattern
 Follow these steps to set up and run the project locally:
 
 ### 1️⃣ Clone the Repository
-git clone https://github.com/your-username/GWeather.git
+git clone https://github.com/ariesmercado/GWeather.git
 cd GWeather
 
 ### 2️⃣ Add google-services.json
 Firebase is used for authentication, so you must include the google-services.json file in your project.
 
-## Steps:
+# Steps:
 
-1. Download from my provided Google Drive link.
+1. Download from my provided Google Drive link. -> [google-services.json](https://drive.google.com/file/d/1FncQuNSv47rV3FmEbGKs6ukwKPtyHrRy/view?usp=sharing)
 2. Place it inside: app/google-services.json
 3. Ensure this file is listed in .gitignore.
 
 ### 3️⃣ Add secret.properties
 This file stores sensitive information such as your API key and database name securely.
 
-## Steps:
+# Steps:
 1. Create a file named secret.properties in the project root
-or download it from my provided Google Drive link.
+or download it from my provided Google Drive link. -> [secret.properties](https://drive.google.com/file/d/1rm-75v7yPoBVBEjw8zAHXeyTgRrYkDBU/view?usp=sharing)
+
 2. Add the following contents:
-API_KEY=your_openweather_api_key_here
-BASE_URL=https://api.openweathermap.org/
-DB=GWeather
+- API_KEY=your_openweather_api_key_here
+- BASE_URL=https://api.openweathermap.org/
+- DB=GWeather
 
 This file is ignored in .gitignore for security.
 
@@ -90,34 +91,35 @@ This file is ignored in .gitignore for security.
 4. Click Run ▶️
 
 ### 🔒 API Key Management
-Your OpenWeather API key must be stored in the secret.properties file for security.
-API_KEY=your_openweather_api_key_here
-BASE_URL=https://api.openweathermap.org/
-DB=GWeather
+- Your OpenWeather API key must be stored in the secret.properties file for security.
+---
+- API_KEY=your_openweather_api_key_here
+- BASE_URL=https://api.openweathermap.org/
+- DB=GWeather
 
 In code, these values are safely read through Gradle configuration.
 ⚠️ Never hardcode your API key directly in Kotlin files.
 
 ### 📱 Screenshots
 
-| Splash                            | Location Permission                   | Login                           | Registration                          |
-| --------------------------------- | ------------------------------------- | ------------------------------- | ------------------------------------- |
-| ![Splash](screenshots/splash.png) | ![Location](screenshots/location.png) | ![Login](screenshots/login.png) | ![Register](screenshots/register.png) |
-| Current Weather                                    | Weather History                             |
+| Splash                            | Location Permission                  | Login                           | Registration                          |
+| --------------------------------- | ------------------------------------ | ------------------------------- | ------------------------------------- |
+| ![Splash](![splash.jpg](..%2F..%2F..%2FDownloads%2Fsplash.jpg)) | ![Location](![location permision.jpg](..%2F..%2F..%2FDownloads%2Flocation%20permision.jpg)) | ![Login](![login.jpg](..%2F..%2F..%2FDownloads%2Flogin.jpg)) | ![Register](![registration.jpg](..%2F..%2F..%2FDownloads%2Fregistration.jpg)) |
+| Current Weather                                    | Weather History                            |
 | -------------------------------------------------- | ------------------------------------------- |
-| ![CurrentWeather](screenshots/current_weather.png) | ![History](screenshots/weather_history.png) |
+| ![CurrentWeather](![current weather.jpg](..%2F..%2F..%2FDownloads%2Fcurrent%20weather.jpg)) | ![History](![history.jpg](..%2F..%2F..%2FDownloads%2Fhistory.jpg)) |
 
 ### 🧑‍💻 Developer Notes
 
-Implements Firebase Authentication for user login and registration.
+- Implements Firebase Authentication for user login and registration.
 
-Uses Room for weather history persistence.
+- Uses Room for weather history persistence.
 
-Displays dynamic weather icons (☀️ for day / 🌙 for night).
+- Displays dynamic weather icons (☀️ for day / 🌙 for night).
 
-Stores sensitive keys securely via secret.properties.
+- Stores sensitive keys securely via secret.properties.
 
-Written in Kotlin with testable, clean, and maintainable code.
+- Written in Kotlin with testable, clean, and maintainable code.
 
 ### 🪪 License
 This project was just developed as part of an Android Developer Coding Challenge.
