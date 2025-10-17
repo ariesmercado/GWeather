@@ -29,7 +29,7 @@ The app follows the **Clean Architecture + MVVM (Model-View-ViewModel)** pattern
 - **UI Layer (Jetpack Compose)** — declarative, reactive interface.
 - **ViewModel** — holds and manages UI-related data.
 - **Repository Pattern** — abstracts access to network and database sources.
-- **Use Cases** — encapsulate business logic for better testability.
+- **Use Cases** — for business logic
 
 ---
 
@@ -62,7 +62,7 @@ You can try the app directly by downloading the latest release below:
 
 - File name: gweather-v1-0.apk
 - Build type: Debug
-- Minimum SDK: 24 (Android 7.0)
+- Minimum SDK: 23 (Android 6.0)
 - Target SDK: 35 (Android 15)
 - Version: 1.0
 
@@ -151,7 +151,7 @@ In code, these values are safely read through Gradle configuration.
 - Uses Room for weather history persistence.
 - Displays dynamic weather icons (☀️ for day / 🌙 for night).
 - Stores sensitive keys securely via secret.properties.
-- Written in Kotlin with testable, clean, and maintainable code.
+- Written in Kotlin with clean, and maintainable code.
 
 ---
 
