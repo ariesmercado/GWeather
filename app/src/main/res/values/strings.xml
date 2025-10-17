@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">GWeather</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="error">Error</string>
+    <string name="create_account">Create Account</string>
+    <string name="email">Email</string>
+    <string name="invalid_email_format">Invalid email format</string>
+    <string name="already_have_an_account_sign_in">Already have an account? Sign in</string>
+    <string name="sign_in">Sign In</string>
+    <string name="password_must_be_at_least_6_characters">Password must be at least 6 characters</string>
+    <string name="passwords_do_not_match">Passwords do not match</string>
+    <string name="don_t_have_an_account_sign_up">Don’t have an account? Sign up</string>
+    <string name="failed_to_load_weather_data">Failed to load weather data</string>
+    <string name="unknown_country">Unknown country</string>
+    <string name="no_description">No description</string>
+    <string name="https_openweathermap_org_img_wn_2x_png">https://openweathermap.org/img/wn/%1$s@2x.png</string>
+    <string name="unknown_city">Unknown city</string>
+    <string name="temperature_format">%.1f°C</string>
+    <string name="current_weather">Current Weather</string>
+    <string name="sunrise">🌅 Sunrise</string>
+    <string name="sunset">🌇 Sunset</string>
+    <string name="image_not_available">Image not available</string>
+</resources>
